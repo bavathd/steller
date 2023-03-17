@@ -11520,16 +11520,15 @@ pre {
 .header .container .img-holder img {
   width: 100%;
   max-width: 660px;
+  margin-bottom: 50px;
   -webkit-filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4));
           filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4));
-  margin-left: auto;
+  margin-left: 3px;
   margin-right: -2rem;
 }
 
 
-/* .header .container .img-holder {
-  display: none;
-} */
+ 
 @media (max-width: 991.98px) {
   .header .container {
     -webkit-box-pack: center;
@@ -11540,6 +11539,9 @@ pre {
   .header .container .infos {
     margin-top: 0;
   }
+  /* .header .container .img-holder {
+  display: none;
+}  */
  
 }
 
